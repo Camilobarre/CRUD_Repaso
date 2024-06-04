@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nameUser": "Juan",
+      "lastName": "Arias",
+      "email": "juan@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "e761",
+      "nameUser": "javier",
+      "lastName": "hernandez",
+      "email": "javier@gmail.com",
+      "password": "123"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "brand": "Renault",
+      "model": "Duster",
+      "year": "2020",
+      "price": "60000000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_757337-MCO72270855335_102023-F.webp",
+      "isActive": true
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "year": "2019",
+      "price": "72000000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_952311-MCO76622890585_052024-F.webp",
+      "id": "c90a",
+      "isActive": false
+    },
+    {
+      "id": "c05c",
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "year": "2019",
+      "price": "70000000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_952311-MCO76622890585_052024-F.webp",
+      "isActive": true
+    }
+  ]
+}

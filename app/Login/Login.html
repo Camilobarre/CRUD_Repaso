@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Favicon de la aplicación -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Configuración del viewport para diseño responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Enlace a la hoja de estilos SCSS compilada -->
+    <link rel="stylesheet" href="./src/scss/style.scss">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!-- Encabezado de la página -->
+    <header class="mb-5">
+      <!-- Barra de navegación utilizando Bootstrap -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!-- Nombre de la marca, enlaza a la página de inicio -->
+          <a class="navbar-brand" href="/">Carros PR</a>
+          <!-- Botón para colapsar la barra de navegación en dispositivos pequeños -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Elementos de la barra de navegación -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <!-- Elemento de navegación a la página de inicio -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+              </li>
+              <!-- Enlace a la página de inicio de sesión -->
+              <li class="nav-item">
+                <a class="nav-link" href="/app/Login/Login.html">Iniciar sesión</a>
+              </li>
+              <!-- Enlace a la página de registro -->
+              <li class="nav-item">
+                <a class="nav-link" href="/app/SignUp/SignUp.html">Registrarse</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contenedor principal de la página -->
+    <main class="w-75 m-auto d-flex flex-wrap gap-3 justify-content-center">
+        <!-- Formulario de inicio de sesión -->
+        <form class="w-75">
+            <!-- Campo de entrada para el correo electrónico -->
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <!-- Campo de entrada para la contraseña -->
+            <div class="mb-3">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+            <!-- Enlace a la página de registro -->
+            <div class="mb-3">
+              <a href="/app/SignUp/SignUp.html">Registrarse</a>
+            </div>
+            <!-- Botón de envío del formulario -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="w-100 bg-body-tertiary d-flex justify-content-center align-content-center py-4 mt-5">
+      <!-- Texto del pie de página -->
+      <p class="m-0">Carros PR</p>
+    </footer>
+
+    <!-- Enlace al archivo 
